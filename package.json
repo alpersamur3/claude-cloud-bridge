@@ -1,0 +1,21 @@
+{
+  "name": "claude-cloud-bridge",
+  "version": "1.0.0",
+  "description": "Cloud ortamindaki Claude'un, API key ile korunan guvenli bir kopru uzerinden yerel bilgisayarda komut calistirmasini ve dosya islemleri yapmasini saglayan Node.js koprusu.",
+  "main": "server.js",
+  "type": "commonjs",
+  "bin": {
+    "claude-bridge": "server.js",
+    "claude-bridge-client": "client.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT",
+  "private": true
+}
